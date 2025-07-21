@@ -16,18 +16,48 @@ export const ContactSection = () => {
   const { toast } = useToast();
   const [isSubmitting, setIsSubmitting] = useState(false);
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    setIsSubmitting(true);
+  const handleSubmit = async (e) => {
+  e.preventDefault();
+  setIsSubmitting(true);
 
-    setTimeout(() => {
-      toast({
-        title: "Message sent!",
-        description: "Thank you for reaching out. I'll get back to you soon.",
-      });
-      setIsSubmitting(false);
-    }, 1500);
-  };
+  const form = e.target;
+  const name = form.name.value;
+  const email = form.email.value;
+  const message = form.message.value;
+
+  // ✅ Correct Google Form endpoint
+  const googleFormURL =
+    "https://docs.google.com/forms/d/e/1FAIpQLSeiARxamxAou1_llOCXcPqaiQKwXU4BKuldagMwT1GXEarNMQ/formResponse";
+
+  const formData = new FormData();
+  formData.append("entry.880883838", name);     // Name field entry ID
+  formData.append("entry.1015543259", email);    // Email field entry ID
+  formData.append("entry.2090079769", message);  // Message field entry ID
+
+  try {
+    await fetch(googleFormURL, {
+      method: "POST",
+      mode: "no-cors",
+      body: formData,
+    });
+
+    toast({
+      title: "Message sent!",
+      description: "Thank you for reaching out. I'll get back to you soon.",
+    });
+
+    form.reset();
+  } catch (error) {
+    toast({
+      title: "Error!",
+      description: "Failed to send message. Please try again later.",
+      variant: "destructive",
+    });
+  } finally {
+    setIsSubmitting(false);
+  }
+};
+
 
   return (
     <section id="contact" className="py-24 px-4 relative bg-secondary/30">
@@ -127,12 +157,9 @@ export const ContactSection = () => {
           </div>
 
           {/* Contact Form */}
-          <div
-            className="bg-card p-8 rounded-lg shadow-md"
-            onSubmit={handleSubmit}
-          >
+          <div className="bg-card p-8 rounded-lg shadow-md">
             <h3 className="text-2xl font-semibold mb-6">Send a Message</h3>
-            <form className="space-y-6">
+            <form className="space-y-6" onSubmit={handleSubmit}>
               <div>
                 <label
                   htmlFor="name"
