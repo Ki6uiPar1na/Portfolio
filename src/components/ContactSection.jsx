@@ -125,7 +125,7 @@ export const ContactSection = () => {
               <h4 className="font-medium mb-4 text-left">Connect With Me</h4>
               <div className="flex space-x-4 item-left">
                 <a
-                  href="https://linkedin.com/in/md-khairul-islam"
+                  href="https://www.linkedin.com/in/mdkhairulislamtushar/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -139,14 +139,14 @@ export const ContactSection = () => {
                   <Github className="hover:text-primary transition-colors" />
                 </a>
                 <a
-                  href="https://twitter.com/khairul_cse"
+                  href="https://x.com/Khairul__On"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   <Twitter className="hover:text-primary transition-colors" />
                 </a>
                 <a
-                  href="https://instagram.com/khairul.codes"
+                  href="https://www.instagram.com/khairulislam_3/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
