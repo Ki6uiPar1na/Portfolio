@@ -4,11 +4,11 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react";
 const projects = [
   {
     id: 1,
-    title: "Nasa Space Apps Challenge 2024",
+    title: "Mid Day Programming Club App",
     description:
-      "Today, the world faces two interconnected challenges: climate change and gender inequality. While they may seem separate, climate change worsens existing inequalities, particularly for women in vulnerable communities. At CheckMate Beta, we aim to address both of these critical issues with innovative, sustainable solutions that empower women to take action against climate change.",
-    image: "/projects/portfolio.png",
-    tags: ["React", "TailwindCSS", "Vercel"],
+      "Mid Day Programming Club was a departmental Academic Project, it was a great experience working on this project. I learned a lot about Java programming, Android development, and teamwork. The app was well-received by users and helped promote programming skills among students.",
+    image: "/img/projects/midday.png",
+    tags: ["Java"],
     demoUrl: "https://ki6uipar1na.github.io/portfolio", 
     githubUrl: "https://github.com/Ki6uiPar1na/NASA-Space-Apps-Challenge-2024",
   },
@@ -17,7 +17,7 @@ const projects = [
     title: "Kingdom Of Soldier Game Project",
     description:
       "This is project made by Md. Khairul Islam and Mst. Rokeya Akther Supervised by Dr. A. H. M. Kamal , Professor, Jatiya Kabi Kazi Nazrul Islam University.",
-    image: "/projects/ctf-writeups.png",
+    image: "/img/projects/kingdom-of-soldier.png",
     tags: ["Java", "Python3"],
     demoUrl: "#",
     githubUrl: "https://github.com/Ki6uiPar1na/Kingdom-Of-Soldier-Game-Project",
@@ -27,7 +27,7 @@ const projects = [
     title: "Nasa Space Apps Challenge 2024",
     description:
       "Today, the world faces two interconnected challenges: climate change and gender inequality. While they may seem separate, climate change worsens existing inequalities, particularly for women in vulnerable communities. At CheckMate Beta, we aim to address both of these critical issues with innovative, sustainable solutions that empower women to take action against climate change.",
-    image: "/projects/portfolio.png",
+    image: "img/projects/NSAC.png",
     tags: ["React", "TailwindCSS", "Vercel"],
     demoUrl: "https://ki6uipar1na.github.io/portfolio", 
     githubUrl: "https://github.com/Ki6uiPar1na/NASA-Space-Apps-Challenge-2024",

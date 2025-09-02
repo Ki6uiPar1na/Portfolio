@@ -8,7 +8,7 @@ const contestData = [
     description:
       "16 May was the final round of the World Telecommunication and Information Society Day Hackathon 2025 CTF. In the preliminary round (held on 12th May), 192 teams participated and only the top 35 made it to the onsite final at MIST. The whole event was organized by Military Institute of Science and Technology and BTRC. Glad to say we got selected in the prelims and managed to secure 4th place in the final round. The CTF organized by MIST is always amazing — and this one was no exception.The final round was a great experience. Even though the prelims were tough and we barely made it to the safe zone, we made a strong comeback in the final. From the very start, we dominated the leaderboard and held our ground till the end. Yes, we missed the top spot, but getting 4th place out of the 35 finalist teams still feels like a solid achievement.Huge shoutout to my teammates Tausif Mayeen, Md. Khairul Islam Tushar, and Firuze Tasnim Sneha.This wouldn’t have been possible without your effort and teamwork. Also, today was the prize-giving ceremony at BTRC. The prizes were handed over by the honorable Asif Mahmud Shojib Bhuiyan, Adviser for Local Government, Rural Development and Cooperatives of Bangladesh.  Had a great time there too. r3p4r0_r3b3ls rocks!! And JKKNIU legacy continues💥",
     icon: Trophy,
-    image: "/projects/CTF/hackathon-2025.jpeg",
+    image: "/img/CTF/hackathon-2025.jpeg",
     viewUrl: "https://www.facebook.com/photo/?fbid=10159888593007764&set=a.10159888592992764",
   },
   {
@@ -17,7 +17,7 @@ const contestData = [
     description:
       "🚩 Red Sentry CTF 2025 – Top 5 Finish! 🏁I’m thrilled to share that I secured 5th place out of the top cybersecurity minds in the Red Sentry CTF, scoring 1550 points! 🥳",
     icon: Trophy,
-    image: "/projects/CTF/red-sentry-ctf-2025.png",
+    image: "/img/CTF/red-sentry-ctf-2025.png",
     viewUrl: "#ctf",
   },
   {
@@ -25,7 +25,7 @@ const contestData = [
     title: "23rd - Cyber Raid 2025",
     description: "My team JKKNIU L@L P1p4a secured 23rd place in Cyber Raid 2025 at MIST, organized by IT Directorate Bangladesh Army. Before that we make it top 40 over 225 teams.",
     icon: Trophy,
-    image: "/projects/CTF/cyber-raid-2025.png",
+    image: "/img/CTF/cyber-raid-2025.png",
     viewUrl: "#hackathon",
   },
   {
@@ -34,7 +34,56 @@ const contestData = [
     description:
       "🚩 KNIGHTCTF 2025 Conquered!🏰⚔️ An international CTF, 1000+ registered teams. 'JKKNIU L@L P1p4a', we secured 147th place among 750+ participated teams! 💪🔥🏅 Total Points: 1600 ",
     icon: Trophy,
-    image: "/projects/CTF/knight-ctf-2025.png",
+    image: "/img/CTF/knight-ctf-2025.png",
+    viewUrl: "#hackathon",
+  },
+  {
+    id: 5,
+    title: "N3XT L3V3L CTF - 31st Place",
+    description:
+      "I’m excited to share that our team Res!l!ent An0n!m0us Warr!0rs - RAW took part in N3XT_L3V3L CTF and finished in 31st place with 4,328 points.",
+    icon: Trophy,
+    image: "/img/CTF/nextLevelCtf.png",
+    viewUrl: "#hackathon",
+  },
+  {
+    id: 6,
+    title: "EWU CTF 2024 - 12th Place",
+    description:
+      `Our team, JKKNIU L@L P1p4a, proudly secured 12th place in the EWU National RoboFest 2024 Capture The Flag Competition hosted by East West University! 🥇
+
+This accomplishment reflects the dedication, teamwork, and problem-solving skills that every member brought to the table. We’re grateful for the opportunity to compete against some of the best teams in the nation.
+
+My team members are:
+✪ Mobasshirah Mridula apu
+✪ Rokeya Akter 
+✪ Umma Lutfia Afroze
+
+hashtag#RoboFest2024
+hashtag#CaptureTheFlag
+hashtag#JKKNIU
+#https://lnkd.in/gMHUJTQw`,
+    icon: Trophy,
+    image: "/img/CTF/ewuCTF2024.png",
+    viewUrl: "#hackathon",
+  },
+  {
+    id: 7,
+    title: "Programming Hero Presents National Hackathon",
+      description:
+      `Alhamdulillah 
+Another achievement!! My team, "Checkmate Beta," was selected for onsite participation in "Programming Hero presents National Hackathon"
+
+Team members are:
+1. Shahriar Hasnat Shafin Ahmed 
+2. Md Abu Omayer Babu 
+3. Rokeya Akter 
+
+Keep us on your prayer 
+
+hashtag#EWU hashtag#hackathon hashtag#competition.`,
+    icon: Trophy,
+    image: "/img/hackathon/ewu2024.png",
     viewUrl: "#hackathon",
   }
 ];
